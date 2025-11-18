@@ -1,0 +1,48 @@
+1. Data Types Recap
+Python has several built-in data types:
+int → whole numbers
+float → decimal numbers
+str → text
+bool → True or False
+None → absence of value
+Boolean Values
+A bool is already a boolean — you do NOT convert it like int() or str().
+2. Conditionals (if, elif, else)
+Basic Structure
+if condition:
+    code
+elif condition:
+    code
+else:
+    code
+Comparison Operators
+Operator	Meaning
+==	equal
+!=	not equal
+<	less than
+>	greater than
+<=	less or equal
+>=	greater or equal
+Logical Operators
+Operator	Meaning
+and	(both conditions must be true)
+or	(at least one must be true)
+You can put if statements inside each other:
+Python’s match statement is similar to switch-case in other languages, but more powerful because it supports pattern matching.
+It allows you to compare a value against different patterns and execute code depending on which pattern matches.
+Why match is useful
+It makes code cleaner than long chains ofgi
+if / elif / elif / else
+It’s easier to extend
+It’s more readable
+It can match patterns, not just values
+When to Use match
+Use match instead of if/elif when:
+Checking the same variable against many cases
+You want cleaner readable logic
+You want pattern matching (tuples, dicts)
+Use if when:
+You’re checking different variables
+Conditions involve inequalities (>, <, >=)
+imagine condtionals like a tree diagram used in hs probability 
+we can use many if statements but we're asking too many questions so the thing is you need to think of as least questions as possible to make the code smoother

@@ -1,0 +1,37 @@
+Here is a summary of the core concepts from CS50P Lecture 0, explained in pure text without code examples.
+Variable
+A variable is simply a named container used to store a piece of information or data in your program. Think of it like a label on a box.
+Assignment: When you create a variable, you assign a value to it. For instance, you can store the text "Alice" in a variable named name.
+Purpose: Variables allow you to use the same piece of data multiple times throughout your program without retyping it. If the value changes, you only update it in one place (the variable), and the rest of your program automatically uses the new value.
+Data Types (Strings)
+Data stored in variables can come in different types. Lecture 0 primarily focuses on strings.
+Intiger: numbers
+Float: decimal numbers/fractions
+String: A string is a sequence of characters, essentially any text (words, letters, numbers, and symbols). When you ask a user for their name or address, that input is typically stored as a string.
+Function
+A function is a pre-written, reusable block of code designed to perform a specific, well-defined task. Functions are the workhorses of any program.
+Invocation (Calling): To use a function, you invoke or call it by its name.
+Built-in Functions: Python has many functions built-in for common tasks:
+One function is used to output text to the screen (like a greeting).
+Another function is used to receive input from the user (like asking for a name).
+Arguments
+An argument is a specific piece of information that you provide to a function when you call it. Arguments are the inputs a function needs to do its job.
+Providing Input: If you call the function that outputs text to the screen, the argument is the actual text you want it to display, such as "hello, world".
+Structure: Arguments are always placed inside parentheses when you call a function.
+Input and Output
+The process of interacting with a user involves both input and output functions.
+Input: When you want to get information from the user, you call the input function. The prompt you display (e.g., "What is your name?") is the argument you pass to this function. The user's response is then stored in a variable.
+Output: When you want to display information, you call the output function. The argument you pass can be a specific text string or a variable containing stored data (like the user's name).
+String Methods
+A method is a special type of function that is associated with a specific piece of data, like a string.
+Purpose: Methods perform operations on the data they belong to. For a string, methods can be used to clean up or modify the text.
+def-defining a new function we can then reuse in our code
+input()-syntax for getting input from user
+print() print something in terminal
+Print(x)-will print whatever we have as x
+print("x") will print the string x itself
+input always gives out string
+"" can be used also '' can be used
+return- serves to exit a function and send a value or values back to the part of the program that called It
+return last part of function can't write more code after that
+
