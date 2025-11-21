@@ -1,0 +1,34 @@
+loops (do something again and again a cycle of sorts)
+in meow.py flow chart in meows x 3 then stops
+time consuming what if we want to meow 50,500 times or change to a bark
+
+While- A construnct that allows us to do something again and again (boolean expression true or false)
+"Do I have any fingers up (Am I done counting)
+In first example i is always 3 so meow will always get printed (infinite loop) ctrl c for cancel
+In second example while I does not equal 0 continue printing meow the when i becomes 0 meowing stops
+Usually in CS it is accepted to start from 0 in that case we need to get to under 3 and not under equals 3
+i +=1 (like i=i+1)
+
+List- Another type of data a way of containing multiple values all in the same place/variable
+For- Allows to itereate (to do (something) over again or repeatedly) over a list of items 
+Square brackets [] rpresent a list
+In first for list examples we're under the assumption that list will be 0-3 but in an extreme case of a larger list that code is not practical
+range a function that gives a range of values
+_ is a variable that we don't care about we're not using it later (pythonic)
+escape sequence-\n (in print)
+end method we can decide when we're moving on to next line
+continue-stay in this loop
+break-break out of this loop
+We can purposefully induce an infinite loop until we get the value we want fom our user
+
+In hogwarts example lets say i want to print a specific value from a list i use []
+eg- print(students[0]) we're printing value in location 0
+We can also use for loop if we don't know specific location (larger dataset)
+
+len-short for length (range takes a list of integers but len takes a list of strings)
+dict-dictionaries (allows to associate one value to another) associate something with something else like words with their definitions
+eg to dict- students to thier house 
+{} curly braces for dictionaries
+two dimensions like a table 
+when we use a for loop in a dictionary we get the keys not the attribute associated to the key
+None-absense of a value
