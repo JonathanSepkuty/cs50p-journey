@@ -32,3 +32,12 @@ eg to dict- students to thier house
 two dimensions like a table 
 when we use a for loop in a dictionary we get the keys not the attribute associated to the key
 None-absense of a value
+
+in means we're asking if the variable is somethong in the list if coin is [5,10,25] we're asking if the coin is 5 or 10 or 25
+is means we're asking if the variable is the whole list 
+
+2 ingredients are needed to avoid an infinite loop
+    1 a condition that eventually becomes false
+    2. something inside the loop that changes the value used in the condition
+
+
