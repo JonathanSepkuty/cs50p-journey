@@ -7,4 +7,4 @@ def camel_to_snake(camel_str):
         else:
             snake_str+=char
     return snake_str.lstrip("_")
-print ("snake_case "+ camel_to_snake(user))
+print ("snake_case: "+ camel_to_snake(user))
