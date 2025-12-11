@@ -13,3 +13,13 @@ NameError-a variable or something isn't defined order of operations is flawed no
 else- can also be used for try and except blocks
 pass-silently ignore (like in a gameshow you decide to pass on handling an error like a question)
 if we hande an error the user wont know anything about it in the first place
+
+we must have a vlock of code under except like: if,for,while,try because python needs to know "What do you want me to do when the error happens?"
+
+except can be explained as such "If the code in the try block throws this specific kind of erroe do this instead 
+
+try- try to run some risky code
+
+continue- go back to the top of the loop/iteration
+
+
